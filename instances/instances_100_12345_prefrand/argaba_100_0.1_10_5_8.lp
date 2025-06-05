@@ -1,0 +1,14 @@
+argument(arg600).
+conclusion(60,arg600).
+atom(60).
+atom(22).
+pool_atm(22).
+pool_asm(4).
+inarg(60,arg600).
+inarg(22,arg600).
+rule(r235,arg600).
+head(r235,60).
+body(r235,22).
+related(t9,4).
+related(t7,22).
+related(t7,60).

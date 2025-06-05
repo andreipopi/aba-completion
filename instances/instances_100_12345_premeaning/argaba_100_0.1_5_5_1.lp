@@ -1,0 +1,13 @@
+argument(arg300).
+conclusion(30,arg300).
+atom(30).
+atom(87).
+pool_atm(87).
+pool_asm(3).
+inarg(30,arg300).
+inarg(87,arg300).
+rule(r58,arg300).
+head(r58,30).
+body(r58,87).
+related(t1,3).
+related(t2,87).

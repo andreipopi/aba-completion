@@ -1,0 +1,13 @@
+argument(arg970).
+conclusion(97,arg970).
+atom(97).
+atom(34).
+pool_atm(34).
+pool_asm(7).
+inarg(97,arg970).
+inarg(34,arg970).
+rule(r504,arg970).
+head(r504,97).
+body(r504,34).
+related(t1,7).
+related(t2,34).

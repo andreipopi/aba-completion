@@ -1,0 +1,14 @@
+argument(arg19460).
+conclusion(1946,arg19460).
+atom(1946).
+atom(474).
+pool_atm(474).
+pool_asm(1).
+inarg(1946,arg19460).
+inarg(474,arg19460).
+rule(r9806,arg19460).
+head(r9806,1946).
+body(r9806,474).
+related(t2,1).
+related(t3,474).
+related(t9,1946).

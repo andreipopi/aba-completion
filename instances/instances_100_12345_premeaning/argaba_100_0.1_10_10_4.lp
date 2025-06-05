@@ -1,0 +1,17 @@
+argument(arg760).
+conclusion(76,arg760).
+assumption(1).
+atom(76).
+atom(59).
+pool_atm(76).
+pool_atm(59).
+pool_asm(4).
+inarg(76,arg760).
+inarg(59,arg760).
+inarg(1,arg760).
+rule(r256,arg760).
+head(r256,59).
+body(r256,1).
+related(t1,1).
+related(t2,59).
+related(t2,4).

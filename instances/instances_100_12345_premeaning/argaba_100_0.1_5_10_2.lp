@@ -1,0 +1,15 @@
+argument(arg170).
+conclusion(17,arg170).
+assumption(3).
+atom(17).
+atom(91).
+pool_atm(17).
+pool_atm(91).
+inarg(17,arg170).
+inarg(91,arg170).
+inarg(3,arg170).
+rule(r249,arg170).
+head(r249,91).
+body(r249,3).
+related(t1,3).
+related(t2,91).

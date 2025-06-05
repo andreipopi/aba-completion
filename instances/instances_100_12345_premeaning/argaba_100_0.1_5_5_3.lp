@@ -1,0 +1,15 @@
+argument(arg320).
+conclusion(32,arg320).
+assumption(3).
+atom(32).
+atom(89).
+pool_atm(32).
+pool_atm(89).
+inarg(32,arg320).
+inarg(89,arg320).
+inarg(3,arg320).
+rule(r256,arg320).
+head(r256,89).
+body(r256,3).
+related(t1,3).
+related(t2,89).

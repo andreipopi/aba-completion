@@ -1,0 +1,17 @@
+argument(arg580).
+conclusion(58,arg580).
+assumption(10).
+atom(58).
+atom(59).
+inarg(58,arg580).
+inarg(59,arg580).
+inarg(10,arg580).
+rule(r283,arg580).
+rule(r275,arg580).
+head(r283,59).
+head(r275,58).
+body(r283,10).
+body(r275,59).
+related(t4,10).
+related(t10,59).
+related(t6,58).

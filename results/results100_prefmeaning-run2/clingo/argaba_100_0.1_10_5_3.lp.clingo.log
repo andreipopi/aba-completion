@@ -1,0 +1,138 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 11628 MiB (8675 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_clingo.sh /home/andreipopi/Documents/GitLab/discover-aba/InstanceGenerator/datasets_final/instances_100_12345_premeaning/argaba_100_0.1_10_5_3.lp 
+
+running on 12 cores: 0-11
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.11.0-26-generic
+Current StackSize limit: 8192 KiB
+
+solver pid=71040, runsolver pid=71039
+clingo version 5.6.2
+Reading from ...Lab/discover-aba/aba-complete-final.lp ...
+Solving...
+Answer: 1
+argument(arg970) body(r504,34) conclusion(97,arg970) head(r504,97) inarg(97,arg970) inarg(34,arg970) rule(r504,arg970) learnable(20) head(20,34) assumption(7) body(20,7) rule(20,arg970) inarg(7,arg970) derivable(7,arg970) derivable(97,arg970) derivable(34,arg970)
+Optimization: 2
+
+[startup+0.100149 s]*
+/proc/loadavg: 1.20 1.11 0.53 12/933 71042
+/proc/meminfo: memFree=8878192/11907752 swapFree=4194300/4194300
+[pid=71040] ppid=71039 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/71040/stat : 71040 (sh) S 71039 71040 3350 34816 70693 4194304 105 0 0 0 0 0 0 0 20 0 1 0 10017448 2871296 410 18446744073709551615 103255281364992 103255281448989 140736325195152 0 0 0 0 0 65538 1 0 0 17 8 0 0 0 0 0 103255281475024 103255281480224 103255331237888 140736325201655 140736325201823 140736325201823 140736325206000 0
+/proc/71040/statm: 701 410 410 21 0 92 0
+[pid=71042] ppid=71040 vsize=19328 memory=15772 CPUtime=0.14 cores=0-11
+/proc/71042/stat : 71042 (clingo) R 71040 71040 3350 34816 70693 4194304 2480 0 0 0 13 1 0 0 20 0 1 0 10017448 19791872 3943 18446744073709551615 101290824781824 101290824906905 140731788873152 0 0 0 0 0 25184775 0 0 0 17 7 0 0 0 0 0 101290824939824 101290824946248 101291320131584 140731788877505 140731788877719 140731788877719 140731788881896 0
+/proc/71042/statm: 4832 3943 1822 31 0 2190 0
+Current children cumulated CPU time: 0.14 s
+Current children cumulated vsize: 22132 KiB
+Current children cumulated memory: 17412 KiB
+Answer: 2
+argument(arg970) body(r504,34) conclusion(97,arg970) head(r504,97) inarg(97,arg970) inarg(34,arg970) rule(r504,arg970) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(18,34) head(1,300) head(10,300) head(19,300) head(20,300) head(5,302) head(6,302) head(8,302) head(12,302) head(16,302) head(4,303) head(2,304) head(3,304) head(7,304) head(13,304) head(14,304) head(9,305) head(11,305) head(15,305) head(17,305) body(11,97) body(4,34) body(19,34) body(18,300) body(18,302) body(20,302) assumption(7) body(1,7) body(2,7) body(3,7) body(5,7) body(6,7) body(7,7) body(8,7) body(9,7) body(10,7) body(12,7) body(13,7) body(14,7) body(15,7) body(16,7) body(17,7) body(20,7) rule(12,arg970) rule(18,arg970) rule(20,arg970) inarg(300,arg970) inarg(302,arg970) inarg(7,arg970) derivable(7,arg970) derivable(97,arg970) derivable(34,arg970) derivable(300,arg970) derivable(302,arg970)
+Optimization: 0
+OPTIMUM FOUND
+
+Models       : 2
+  Optimum    : yes
+Optimization : 0
+Calls        : 1
+Time         : 0.185s (Solving: 0.06s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time     : 0.175s
+
+[startup+0.207055 s]
+# the end of solver process 71040 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.171225 s, system=0.026161 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+0.100149 s]*
+/proc/loadavg: 1.20 1.11 0.53 12/933 71042
+/proc/meminfo: memFree=8878192/11907752 swapFree=4194300/4194300
+[pid=71040] ppid=71039 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/71040/stat : 71040 (sh) S 71039 71040 3350 34816 70693 4194304 105 0 0 0 0 0 0 0 20 0 1 0 10017448 2871296 410 18446744073709551615 103255281364992 103255281448989 140736325195152 0 0 0 0 0 65538 1 0 0 17 8 0 0 0 0 0 103255281475024 103255281480224 103255331237888 140736325201655 140736325201823 140736325201823 140736325206000 0
+/proc/71040/statm: 701 410 410 21 0 92 0
+[pid=71042] ppid=71040 vsize=19328 memory=15772 CPUtime=0.14 cores=0-11
+/proc/71042/stat : 71042 (clingo) R 71040 71040 3350 34816 70693 4194304 2480 0 0 0 13 1 0 0 20 0 1 0 10017448 19791872 3943 18446744073709551615 101290824781824 101290824906905 140731788873152 0 0 0 0 0 25184775 0 0 0 17 7 0 0 0 0 0 101290824939824 101290824946248 101291320131584 140731788877505 140731788877719 140731788877719 140731788881896 0
+/proc/71042/statm: 4832 3943 1822 31 0 2190 0
+Current children cumulated CPU time: 0.14 s
+Current children cumulated vsize: 22132 KiB
+Current children cumulated memory: 17412 KiB
+
+Child status: 30
+Real time (s): 0.207191
+CPU time (s): 0.197386
+CPU user time (s): 0.171225
+CPU system time (s): 0.026161
+CPU usage (%): 95.2677
+Max. virtual memory (cumulated for all children) (KiB): 22132
+Max. memory (cumulated for all children) (KiB): 17412
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.171225
+system time used= 0.026161
+maximum resident set size= 15772
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 2594
+page faults= 0
+swaps= 0
+block input operations= 8
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 5
+involuntary context switches= 5
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 71040
+#   total CPU time (s): 0.197386
+#   total CPU user time (s): 0.171225
+#   total CPU system time (s): 0.026161
+
+??? end of timestamper thread
+runsolver used 0.106832 second user time and 0.116911 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_clingo.sh /home/andreipopi/Documents/GitLab/discover-aba/InstanceGenerator/datasets_final/instances_100_12345_premeaning/argaba_100_0.1_10_5_3.lp"
+	User time (seconds): 0.27
+	System time (seconds): 0.14
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15772
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2964
+	Voluntary context switches: 10
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

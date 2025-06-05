@@ -1,0 +1,16 @@
+argument(arg460).
+conclusion(46,arg460).
+assumption(5).
+atom(46).
+atom(42).
+inarg(46,arg460).
+inarg(42,arg460).
+inarg(5,arg460).
+rule(r101,arg460).
+rule(r113,arg460).
+head(r101,42).
+head(r113,46).
+body(r101,5).
+body(r113,42).
+related(t1,5).
+related(t2,42).

@@ -1,0 +1,177 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 11628 MiB (8731 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_clingo.sh /home/andreipopi/Documents/GitLab/discover-aba/InstanceGenerator/datasets_final/instances_500_1234_premeaning/argaba_500_0.1_10_5_6.lp 
+
+running on 12 cores: 0-11
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.11.0-26-generic
+Current StackSize limit: 8192 KiB
+
+solver pid=60646, runsolver pid=60645
+clingo version 5.6.2
+Reading from ...Lab/discover-aba/aba-complete-final.lp ...
+
+[startup+0.100129 s]*
+/proc/loadavg: 1.00 1.07 1.01 13/929 60648
+/proc/meminfo: memFree=8936564/11907752 swapFree=4194300/4194300
+[pid=60646] ppid=60645 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/60646/stat : 60646 (sh) S 60645 60646 3350 34816 58529 4194304 104 0 0 0 0 0 0 0 20 0 1 0 8477211 2871296 410 18446744073709551615 105189889220608 105189889304605 140722681444560 0 0 0 0 0 65538 1 0 0 17 9 0 0 0 0 0 105189889330640 105189889335840 105190732533760 140722681450232 140722681450399 140722681450399 140722681454576 0
+/proc/60646/statm: 701 410 410 21 0 92 0
+[pid=60648] ppid=60646 vsize=17884 memory=13964 CPUtime=0.15 cores=0-11
+/proc/60648/stat : 60648 (clingo) R 60646 60646 3350 34816 58529 4194304 2213 0 0 0 14 1 0 0 20 0 1 0 8477212 18313216 3491 18446744073709551615 98355346903040 98355347028121 140726527545088 0 0 0 0 0 25184775 0 0 0 17 10 0 0 0 0 0 98355347061040 98355347067464 98356289855488 140726527549122 140726527549335 140726527549335 140726527553512 0
+/proc/60648/statm: 4471 3491 1732 31 0 1829 0
+Current children cumulated CPU time: 0.15 s
+Current children cumulated vsize: 20688 KiB
+Current children cumulated memory: 15604 KiB
+
+[startup+0.278014 s]*
+/proc/loadavg: 1.80 1.24 1.06 3/929 60648
+/proc/meminfo: memFree=8923676/11907752 swapFree=4194300/4194300
+[pid=60646] ppid=60645 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/60646/stat : 60646 (sh) S 60645 60646 3350 34816 58529 4194304 104 0 0 0 0 0 0 0 20 0 1 0 8477211 2871296 410 18446744073709551615 105189889220608 105189889304605 140722681444560 0 0 0 0 0 65538 1 0 0 17 9 0 0 0 0 0 105189889330640 105189889335840 105190732533760 140722681450232 140722681450399 140722681450399 140722681454576 0
+/proc/60646/statm: 701 410 410 21 0 92 0
+[pid=60648] ppid=60646 vsize=24332 memory=20528 CPUtime=0.32 cores=0-11
+/proc/60648/stat : 60648 (clingo) R 60646 60646 3350 34816 58529 4194304 4141 0 0 0 29 3 0 0 20 0 1 0 8477212 24915968 5132 18446744073709551615 98355346903040 98355347028121 140726527545088 0 0 0 0 0 25184775 0 0 0 17 6 0 0 0 0 0 98355347061040 98355347067464 98356289855488 140726527549122 140726527549335 140726527549335 140726527553512 0
+/proc/60648/statm: 6083 5132 1732 31 0 3441 0
+Current children cumulated CPU time: 0.32 s
+Current children cumulated vsize: 27136 KiB
+Current children cumulated memory: 22168 KiB
+
+[startup+0.37155 s]*
+/proc/loadavg: 1.80 1.24 1.06 2/929 60648
+/proc/meminfo: memFree=8918812/11907752 swapFree=4194300/4194300
+[pid=60646] ppid=60645 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/60646/stat : 60646 (sh) S 60645 60646 3350 34816 58529 4194304 104 0 0 0 0 0 0 0 20 0 1 0 8477211 2871296 410 18446744073709551615 105189889220608 105189889304605 140722681444560 0 0 0 0 0 65538 1 0 0 17 9 0 0 0 0 0 105189889330640 105189889335840 105190732533760 140722681450232 140722681450399 140722681450399 140722681454576 0
+/proc/60646/statm: 701 410 410 21 0 92 0
+[pid=60648] ppid=60646 vsize=26616 memory=22576 CPUtime=0.4 cores=0-11
+/proc/60648/stat : 60648 (clingo) R 60646 60646 3350 34816 58529 4194304 4664 0 0 0 36 4 0 0 20 0 1 0 8477212 27254784 5644 18446744073709551615 98355346903040 98355347028121 140726527545088 0 0 0 0 0 25184775 0 0 0 17 6 0 0 0 0 0 98355347061040 98355347067464 98356289855488 140726527549122 140726527549335 140726527549335 140726527553512 0
+/proc/60648/statm: 6654 5644 1732 31 0 4012 0
+Current children cumulated CPU time: 0.4 s
+Current children cumulated vsize: 29420 KiB
+Current children cumulated memory: 24216 KiB
+
+[startup+0.700974 s]
+/proc/loadavg: 1.80 1.24 1.06 3/929 60662
+/proc/meminfo: memFree=8893628/11907752 swapFree=4194300/4194300
+[pid=60646] ppid=60645 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/60646/stat : 60646 (sh) S 60645 60646 3350 34816 58529 4194304 104 0 0 0 0 0 0 0 20 0 1 0 8477211 2871296 410 18446744073709551615 105189889220608 105189889304605 140722681444560 0 0 0 0 0 65538 1 0 0 17 9 0 0 0 0 0 105189889330640 105189889335840 105190732533760 140722681450232 140722681450399 140722681450399 140722681454576 0
+/proc/60646/statm: 701 410 410 21 0 92 0
+[pid=60648] ppid=60646 vsize=55668 memory=50964 CPUtime=0.67 cores=0-11
+/proc/60648/stat : 60648 (clingo) R 60646 60646 3350 34816 58529 4194304 12612 0 0 0 58 9 0 0 20 0 1 0 8477212 57004032 12741 18446744073709551615 98355346903040 98355347028121 140726527545088 0 0 0 0 0 25184775 0 0 0 17 6 0 0 0 0 0 98355347061040 98355347067464 98356289855488 140726527549122 140726527549335 140726527549335 140726527553512 0
+/proc/60648/statm: 13917 12741 1778 31 0 11275 0
+Current children cumulated CPU time: 0.67 s
+Current children cumulated vsize: 58472 KiB
+Current children cumulated memory: 52604 KiB
+Solving...
+Answer: 1
+argument(arg3490) argument(arg1820) assumption(9) body(r139,9) body(r1132,79) body(r1653,256) body(r1567,230) body(r727,332) conclusion(349,arg3490) conclusion(182,arg1820) derivable(9,arg3490) derivable(79,arg3490) derivable(256,arg3490) head(r139,79) head(r1132,256) head(r1653,349) head(r1567,332) head(r727,182) inarg(349,arg3490) inarg(79,arg3490) inarg(9,arg3490) inarg(256,arg3490) inarg(182,arg1820) inarg(332,arg1820) inarg(230,arg1820) rule(r139,arg3490) rule(r1132,arg3490) rule(r1653,arg3490) rule(r1567,arg1820) rule(r727,arg1820) derivable(349,arg3490) learnable(14) head(14,230) assumption(16) body(14,16) rule(14,arg1820) inarg(16,arg1820) derivable(16,arg1820) derivable(182,arg1820) derivable(332,arg1820) derivable(230,arg1820)
+Optimization: 2
+Answer: 2
+argument(arg3490) argument(arg1820) assumption(9) body(r139,9) body(r1132,79) body(r1653,256) body(r1567,230) body(r727,332) conclusion(349,arg3490) conclusion(182,arg1820) derivable(9,arg3490) derivable(79,arg3490) derivable(256,arg3490) head(r139,79) head(r1132,256) head(r1653,349) head(r1567,332) head(r727,182) inarg(349,arg3490) inarg(79,arg3490) inarg(9,arg3490) inarg(256,arg3490) inarg(182,arg1820) inarg(332,arg1820) inarg(230,arg1820) rule(r139,arg3490) rule(r1132,arg3490) rule(r1653,arg3490) rule(r1567,arg1820) rule(r727,arg1820) derivable(349,arg3490) learnable(6) learnable(14) head(6,349) head(14,230) body(14,349) assumption(16) body(6,16) rule(6,arg1820) rule(14,arg1820) inarg(349,arg1820) inarg(16,arg1820) derivable(16,arg1820) derivable(182,arg1820) derivable(332,arg1820) derivable(230,arg1820) derivable(349,arg1820)
+Optimization: 0
+OPTIMUM FOUND
+
+Models       : 2
+  Optimum    : yes
+Optimization : 0
+Calls        : 1
+Time         : 0.794s (Solving: 0.06s 1st Model: 0.03s Unsat: 0.00s)
+CPU Time     : 0.782s
+
+[startup+0.845945 s]
+# the end of solver process 60646 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.724455 s, system=0.110022 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+0.801315 s]
+/proc/loadavg: 1.80 1.24 1.06 3/929 60662
+/proc/meminfo: memFree=8893628/11907752 swapFree=4194300/4194300
+[pid=60646] ppid=60645 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/60646/stat : 60646 (sh) S 60645 60646 3350 34816 58529 4194304 104 0 0 0 0 0 0 0 20 0 1 0 8477211 2871296 410 18446744073709551615 105189889220608 105189889304605 140722681444560 0 0 0 0 0 65538 1 0 0 17 9 0 0 0 0 0 105189889330640 105189889335840 105190732533760 140722681450232 140722681450399 140722681450399 140722681454576 0
+/proc/60646/statm: 701 410 410 21 0 92 0
+[pid=60648] ppid=60646 vsize=56876 memory=52428 CPUtime=0.77 cores=0-11
+/proc/60648/stat : 60648 (clingo) R 60646 60646 3350 34816 58529 4194304 13346 0 0 0 68 9 0 0 20 0 1 0 8477212 58241024 13107 18446744073709551615 98355346903040 98355347028121 140726527545088 0 0 0 0 0 25184775 0 0 0 17 6 0 0 0 0 0 98355347061040 98355347067464 98356289855488 140726527549122 140726527549335 140726527549335 140726527553512 0
+/proc/60648/statm: 14219 13107 1778 31 0 11577 0
+Current children cumulated CPU time: 0.77 s
+Current children cumulated vsize: 59680 KiB
+Current children cumulated memory: 54068 KiB
+
+Child status: 30
+Real time (s): 0.846022
+CPU time (s): 0.834477
+CPU user time (s): 0.724455
+CPU system time (s): 0.110022
+CPU usage (%): 98.6354
+Max. virtual memory (cumulated for all children) (KiB): 60464
+Max. memory (cumulated for all children) (KiB): 54068
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.724455
+system time used= 0.110022
+maximum resident set size= 52428
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 13459
+page faults= 0
+swaps= 0
+block input operations= 8
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 5
+involuntary context switches= 20
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 60646
+#   total CPU time (s): 0.834477
+#   total CPU user time (s): 0.724455
+#   total CPU system time (s): 0.110022
+
+??? end of timestamper thread
+runsolver used 0.189181 second user time and 0.2706 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_clingo.sh /home/andreipopi/Documents/GitLab/discover-aba/InstanceGenerator/datasets_final/instances_500_1234_premeaning/argaba_500_0.1_10_5_6.lp"
+	User time (seconds): 0.91
+	System time (seconds): 0.38
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 52428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13912
+	Voluntary context switches: 18
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

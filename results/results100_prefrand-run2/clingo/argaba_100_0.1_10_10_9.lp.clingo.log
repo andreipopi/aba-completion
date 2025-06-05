@@ -1,0 +1,307 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 11628 MiB (8647 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_clingo.sh /home/andreipopi/Documents/GitLab/discover-aba/InstanceGenerator/datasets_final/instances_100_12345_prefrand/argaba_100_0.1_10_10_9.lp 
+
+running on 12 cores: 0-11
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.11.0-26-generic
+Current StackSize limit: 8192 KiB
+
+solver pid=76394, runsolver pid=76393
+clingo version 5.6.2
+Reading from ...Lab/discover-aba/aba-complete-final.lp ...
+
+[startup+0.100125 s]*
+/proc/loadavg: 0.45 0.37 0.74 6/934 76396
+/proc/meminfo: memFree=8854576/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=18360 memory=14436 CPUtime=0.15 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 2341 0 0 0 14 1 0 0 20 0 1 0 10433583 18800640 3609 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 2 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 4590 3609 1724 31 0 1948 0
+Current children cumulated CPU time: 0.15 s
+Current children cumulated vsize: 21164 KiB
+Current children cumulated memory: 16076 KiB
+
+[startup+0.27765 s]*
+/proc/loadavg: 0.45 0.37 0.74 2/934 76396
+/proc/meminfo: memFree=8850836/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=26408 memory=22344 CPUtime=0.33 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 4574 0 0 0 30 3 0 0 20 0 1 0 10433583 27041792 5586 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 2 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 6602 5586 1759 31 0 3960 0
+Current children cumulated CPU time: 0.33 s
+Current children cumulated vsize: 29212 KiB
+Current children cumulated memory: 23984 KiB
+
+[startup+0.377044 s]*
+/proc/loadavg: 0.58 0.40 0.74 2/934 76396
+/proc/meminfo: memFree=8847196/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=42420 memory=38132 CPUtime=0.43 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 8640 0 0 0 37 6 0 0 20 0 1 0 10433583 43438080 9533 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 2 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 10605 9533 1805 31 0 7963 0
+Current children cumulated CPU time: 0.43 s
+Current children cumulated vsize: 45224 KiB
+Current children cumulated memory: 39772 KiB
+
+[startup+0.70097 s]
+/proc/loadavg: 0.58 0.40 0.74 2/931 76431
+/proc/meminfo: memFree=8815664/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=57644 memory=53488 CPUtime=0.68 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13555 0 0 0 58 10 0 0 20 0 1 0 10433583 59027456 13372 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 2 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14411 13372 1805 31 0 11769 0
+Current children cumulated CPU time: 0.68 s
+Current children cumulated vsize: 60448 KiB
+Current children cumulated memory: 55128 KiB
+Solving...
+
+[startup+1.50086 s]
+/proc/loadavg: 0.58 0.40 0.74 2/931 76431
+/proc/meminfo: memFree=8815916/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=57644 memory=53488 CPUtime=1.47 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13556 0 0 0 137 10 0 0 20 0 1 0 10433583 59027456 13372 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 2 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14411 13372 1805 31 0 11769 0
+Current children cumulated CPU time: 1.47 s
+Current children cumulated vsize: 60448 KiB
+Current children cumulated memory: 55128 KiB
+
+[startup+3.15705 s]
+/proc/loadavg: 0.58 0.40 0.74 2/931 76431
+/proc/meminfo: memFree=8819484/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=57644 memory=53488 CPUtime=3.12 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13556 0 0 0 302 10 0 0 20 0 1 0 10433583 59027456 13372 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 2 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14411 13372 1805 31 0 11769 0
+Current children cumulated CPU time: 3.12 s
+Current children cumulated vsize: 60448 KiB
+Current children cumulated memory: 55128 KiB
+Answer: 1
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(16,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(16,81) body(3,300) body(16,300) body(3,304) assumption(2) body(5,5) body(13,5) body(1,6) body(4,6) body(6,6) body(9,6) body(11,6) body(12,6) body(16,6) body(17,6) body(18,6) body(20,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 23
+Answer: 2
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(11,13) body(14,13) body(17,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(16,81) body(3,300) body(16,300) body(3,304) assumption(2) body(5,5) body(9,5) body(12,5) body(17,5) body(2,6) body(3,6) body(4,6) body(6,6) body(8,6) body(13,6) body(14,6) body(16,6) body(18,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 20
+Answer: 3
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(8,13) body(11,13) body(17,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(16,81) body(3,300) body(16,300) body(3,304) assumption(2) body(5,5) body(6,5) body(9,5) body(17,5) body(3,6) body(4,6) body(8,6) body(12,6) body(13,6) body(14,6) body(16,6) body(18,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 19
+Answer: 4
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(3,13) body(8,13) body(11,13) body(17,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(16,81) body(3,300) body(16,300) body(3,304) assumption(2) body(5,5) body(6,5) body(9,5) body(17,5) body(18,5) body(3,6) body(4,6) body(8,6) body(12,6) body(13,6) body(16,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 18
+Answer: 5
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(8,13) body(11,13) body(17,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(16,81) body(3,300) body(16,300) body(3,304) assumption(2) body(4,5) body(5,5) body(6,5) body(9,5) body(13,5) body(17,5) body(18,5) body(3,6) body(8,6) body(12,6) body(16,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 17
+Answer: 6
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(8,13) body(11,13) body(17,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(16,81) body(3,300) body(16,300) body(3,304) assumption(2) body(5,5) body(6,5) body(9,5) body(3,6) body(4,6) body(8,6) body(12,6) body(13,6) body(16,6) body(18,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 16
+Answer: 7
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(9,13) body(11,13) body(14,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(14,81) body(17,81) body(3,300) body(16,300) body(3,304) assumption(2) body(4,5) body(5,5) body(3,6) body(6,6) body(8,6) body(12,6) body(13,6) body(16,6) body(18,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 14
+Answer: 8
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(9,73) head(17,73) head(15,13) head(1,83) head(8,83) head(11,83) head(20,83) head(2,81) head(5,81) head(10,81) head(14,300) head(7,301) head(19,301) head(4,302) head(6,302) head(18,302) head(12,304) head(16,304) head(13,305) body(1,13) body(11,13) body(14,13) body(20,13) body(2,83) body(7,83) body(10,83) body(14,83) body(15,83) body(19,83) body(9,81) body(14,81) body(17,81) body(3,300) body(16,300) body(3,304) assumption(2) body(4,5) body(5,5) body(13,5) body(3,6) body(6,6) body(8,6) body(12,6) body(16,6) body(18,6) body(3,2) body(8,2) body(16,2) rule(2,arg731) rule(3,arg731) rule(8,arg731) rule(14,arg731) rule(16,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(304,arg731) inarg(5,arg730) inarg(6,arg731) inarg(2,arg731) derivable(5,arg730) derivable(6,arg731) derivable(2,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(304,arg731)
+Optimization: 12
+
+[startup+6.30074 s]
+/proc/loadavg: 0.61 0.41 0.74 2/931 76503
+/proc/meminfo: memFree=8820784/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=58880 memory=54512 CPUtime=6.25 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13827 0 0 0 614 11 0 0 20 0 1 0 10433583 60293120 13628 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 6 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14720 13628 1805 31 0 12078 0
+Current children cumulated CPU time: 6.25 s
+Current children cumulated vsize: 61684 KiB
+Current children cumulated memory: 56152 KiB
+Answer: 9
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(13,73) head(7,13) head(1,83) head(2,83) head(5,83) head(17,83) head(20,83) head(12,81) head(14,81) head(16,81) head(8,300) head(15,300) head(4,301) head(6,301) head(10,301) head(18,302) head(9,303) head(19,305) body(1,73) body(17,73) body(1,13) body(5,13) body(15,13) body(17,13) body(20,13) body(9,83) body(1,81) body(3,81) body(13,81) body(17,81) body(9,300) body(10,300) body(16,300) body(14,301) body(9,302) body(1,303) body(2,303) body(3,303) body(17,303) body(17,305) body(20,305) assumption(2) body(4,5) body(7,5) body(8,5) body(19,5) body(6,6) body(7,6) body(12,6) body(18,6) body(1,2) rule(3,arg731) rule(9,arg731) rule(10,arg731) rule(14,arg731) rule(15,arg731) rule(18,arg731) rule(r398,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(301,arg731) inarg(302,arg731) inarg(303,arg731) inarg(5,arg730) inarg(6,arg731) derivable(5,arg730) derivable(6,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(301,arg731) derivable(302,arg731) derivable(303,arg731)
+Optimization: 10
+Answer: 10
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(13,73) head(7,13) head(1,83) head(2,83) head(5,83) head(17,83) head(20,83) head(12,81) head(14,81) head(16,81) head(8,300) head(15,300) head(4,301) head(6,301) head(10,301) head(18,302) head(9,303) head(19,305) body(1,73) body(12,73) body(17,73) body(1,13) body(5,13) body(15,13) body(17,13) body(20,13) body(9,83) body(1,81) body(3,81) body(13,81) body(9,300) body(10,300) body(13,300) body(16,300) body(17,300) body(12,301) body(14,301) body(9,302) body(12,302) body(13,302) body(1,303) body(2,303) body(3,303) body(12,303) body(13,303) body(17,303) body(12,305) body(13,305) body(17,305) body(20,305) assumption(2) body(4,5) body(7,5) body(8,5) body(19,5) body(6,6) body(7,6) body(18,6) body(1,2) rule(3,arg731) rule(9,arg731) rule(10,arg731) rule(14,arg731) rule(15,arg731) rule(18,arg731) rule(r398,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(301,arg731) inarg(302,arg731) inarg(303,arg731) inarg(5,arg730) inarg(6,arg731) derivable(5,arg730) derivable(6,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(301,arg731) derivable(302,arg731) derivable(303,arg731)
+Optimization: 8
+Answer: 11
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(13,73) head(7,13) head(1,83) head(2,83) head(5,83) head(17,83) head(20,83) head(12,81) head(14,81) head(16,81) head(8,300) head(15,300) head(4,301) head(6,301) head(10,301) head(18,302) head(9,303) head(19,305) body(1,73) body(12,73) body(17,73) body(1,13) body(5,13) body(15,13) body(17,13) body(20,13) body(9,83) body(1,81) body(3,81) body(13,81) body(9,300) body(10,300) body(13,300) body(16,300) body(17,300) body(12,301) body(14,301) body(9,302) body(12,302) body(13,302) body(1,303) body(2,303) body(3,303) body(12,303) body(13,303) body(17,303) body(12,305) body(13,305) body(17,305) body(20,305) assumption(2) body(8,5) body(19,5) body(4,6) body(6,6) body(7,6) body(18,6) body(1,2) rule(3,arg731) rule(9,arg731) rule(10,arg731) rule(14,arg731) rule(15,arg731) rule(18,arg731) rule(r398,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(301,arg731) inarg(302,arg731) inarg(303,arg731) inarg(5,arg730) inarg(6,arg731) derivable(5,arg730) derivable(6,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(301,arg731) derivable(302,arg731) derivable(303,arg731)
+Optimization: 7
+Answer: 12
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(13,73) head(7,13) head(1,83) head(2,83) head(5,83) head(17,83) head(20,83) head(12,81) head(14,81) head(16,81) head(8,300) head(15,300) head(4,301) head(6,301) head(10,301) head(18,302) head(9,303) head(19,305) body(1,73) body(12,73) body(17,73) body(1,13) body(5,13) body(15,13) body(17,13) body(20,13) body(4,83) body(9,83) body(1,81) body(3,81) body(13,81) body(9,300) body(10,300) body(13,300) body(16,300) body(17,300) body(12,301) body(14,301) body(9,302) body(12,302) body(13,302) body(1,303) body(2,303) body(3,303) body(7,303) body(12,303) body(13,303) body(17,303) body(12,305) body(13,305) body(17,305) body(20,305) assumption(2) body(6,5) body(8,5) body(18,6) body(19,6) body(1,2) rule(3,arg731) rule(9,arg731) rule(10,arg731) rule(14,arg731) rule(15,arg731) rule(18,arg731) rule(r398,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(301,arg731) inarg(302,arg731) inarg(303,arg731) inarg(5,arg730) inarg(6,arg731) derivable(5,arg730) derivable(6,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(301,arg731) derivable(302,arg731) derivable(303,arg731)
+Optimization: 5
+Answer: 13
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(13,73) head(7,13) head(1,83) head(2,83) head(5,83) head(17,83) head(20,83) head(12,81) head(14,81) head(16,81) head(8,300) head(15,300) head(4,301) head(6,301) head(10,301) head(18,302) head(9,303) head(19,305) body(1,73) body(12,73) body(17,73) body(1,13) body(5,13) body(15,13) body(17,13) body(20,13) body(4,83) body(9,83) body(1,81) body(3,81) body(13,81) body(9,300) body(10,300) body(13,300) body(16,300) body(17,300) body(12,301) body(14,301) body(9,302) body(12,302) body(13,302) body(1,303) body(2,303) body(3,303) body(7,303) body(12,303) body(13,303) body(17,303) body(12,305) body(13,305) body(17,305) body(20,305) assumption(2) body(6,5) body(8,5) body(18,6) body(19,6) rule(3,arg731) rule(9,arg731) rule(10,arg731) rule(14,arg731) rule(15,arg731) rule(18,arg731) rule(r398,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(301,arg731) inarg(302,arg731) inarg(303,arg731) inarg(5,arg730) inarg(6,arg731) derivable(5,arg730) derivable(6,arg731) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(301,arg731) derivable(302,arg731) derivable(303,arg731)
+Optimization: 4
+Answer: 14
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(13,73) head(7,13) head(1,83) head(2,83) head(5,83) head(17,83) head(20,83) head(12,81) head(14,81) head(16,81) head(8,300) head(15,300) head(4,301) head(6,301) head(10,301) head(18,302) head(9,303) head(19,305) body(12,73) body(17,73) body(1,13) body(5,13) body(17,13) body(18,13) body(20,13) body(10,83) body(15,83) body(3,81) body(13,81) body(17,81) body(3,300) body(7,300) body(12,300) body(13,300) body(16,300) body(3,301) body(12,301) body(9,302) body(13,302) body(1,303) body(2,303) body(10,303) body(12,303) body(13,303) body(14,303) body(17,303) body(12,305) body(13,305) body(17,305) body(20,305) assumption(2) body(6,5) body(8,5) body(9,5) body(19,5) body(4,6) rule(3,arg731) rule(9,arg731) rule(10,arg731) rule(14,arg731) rule(15,arg731) rule(18,arg731) rule(r398,arg731) rule(r16,arg730) inarg(83,arg731) inarg(81,arg731) inarg(300,arg731) inarg(301,arg731) inarg(302,arg731) inarg(303,arg731) inarg(5,arg730) derivable(5,arg730) derivable(73,arg730) derivable(13,arg730) derivable(73,arg731) derivable(83,arg731) derivable(81,arg731) derivable(300,arg731) derivable(301,arg731) derivable(302,arg731) derivable(303,arg731)
+Optimization: 2
+
+[startup+12.7008 s]
+/proc/loadavg: 0.64 0.42 0.75 2/931 76503
+/proc/meminfo: memFree=8832756/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=58880 memory=54512 CPUtime=12.62 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13827 0 0 0 1251 11 0 0 20 0 1 0 10433583 60293120 13628 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 3 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14720 13628 1805 31 0 12078 0
+Current children cumulated CPU time: 12.62 s
+Current children cumulated vsize: 61684 KiB
+Current children cumulated memory: 56152 KiB
+Answer: 15
+argument(arg730) argument(arg731) argument(arg830) assumption(5) assumption(6) body(r341,13) body(r16,5) body(r388,6) body(r398,81) conclusion(73,arg730) conclusion(73,arg731) conclusion(83,arg830) derivable(5,arg731) derivable(6,arg830) derivable(13,arg731) derivable(81,arg830) derivable(83,arg830) head(r341,73) head(r16,13) head(r388,81) head(r398,83) inarg(73,arg730) inarg(13,arg730) inarg(73,arg731) inarg(13,arg731) inarg(5,arg731) inarg(83,arg830) inarg(81,arg830) inarg(6,arg830) rule(r341,arg730) rule(r16,arg731) rule(r388,arg830) rule(r398,arg830) learnable(1) learnable(2) learnable(3) learnable(4) learnable(5) learnable(6) learnable(7) learnable(8) learnable(9) learnable(10) learnable(11) learnable(12) learnable(13) learnable(14) learnable(15) learnable(16) learnable(17) learnable(18) learnable(19) learnable(20) head(3,73) head(10,73) head(17,73) head(11,13) head(5,81) head(6,81) head(7,300) head(18,300) head(2,301) head(16,301) head(14,302) head(1,303) head(4,303) head(8,305) head(9,305) head(12,305) head(13,305) head(15,305) head(19,305) head(20,305) body(6,73) body(7,73) body(1,13) body(12,13) body(4,83) body(9,83) body(11,83) body(13,83) body(14,83) body(18,83) body(3,81) body(7,81) body(16,81) body(17,81) body(11,300) body(14,300) body(15,300) body(17,300) body(1,301) body(3,301) body(15,301) body(19,301) body(7,302) body(11,302) body(17,302) body(9,303) body(14,303) body(20,303) body(2,304) body(5,304) body(7,304) body(10,304) body(13,304) body(17,304) body(7,305) body(11,305) body(14,305) body(16,305) body(18,305) assumption(2) body(8,5) body(20,6) body(20,2) rule(4,arg730) rule(9,arg730) rule(11,arg730) rule(14,arg730) rule(18,arg730) rule(3,arg731) rule(12,arg731) rule(16,arg731) rule(r398,arg730) rule(r388,arg730) rule(r388,arg731) inarg(83,arg730) inarg(81,arg730) inarg(300,arg730) inarg(302,arg730) inarg(303,arg730) inarg(305,arg730) inarg(81,arg731) inarg(301,arg731) inarg(305,arg731) inarg(6,arg730) inarg(6,arg731) derivable(6,arg730) derivable(6,arg731) derivable(73,arg730) derivable(13,arg730) derivable(83,arg730) derivable(81,arg730) derivable(300,arg730) derivable(302,arg730) derivable(303,arg730) derivable(305,arg730) derivable(73,arg731) derivable(81,arg731) derivable(301,arg731) derivable(305,arg731)
+Optimization: 0
+OPTIMUM FOUND
+
+Models       : 15
+  Optimum    : yes
+Optimization : 0
+Calls        : 1
+Time         : 14.614s (Solving: 13.92s 1st Model: 5.22s Unsat: 0.00s)
+CPU Time     : 14.545s
+
+[startup+14.6569 s]
+# the end of solver process 76394 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=14.4611 s, system=0.127629 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+12.8013 s]
+/proc/loadavg: 0.64 0.42 0.75 2/931 76503
+/proc/meminfo: memFree=8832756/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=58880 memory=54512 CPUtime=12.72 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13827 0 0 0 1261 11 0 0 20 0 1 0 10433583 60293120 13628 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 3 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14720 13628 1805 31 0 12078 0
+Current children cumulated CPU time: 12.72 s
+Current children cumulated vsize: 61684 KiB
+Current children cumulated memory: 56152 KiB
+
+[startup+13.6011 s]
+/proc/loadavg: 0.64 0.42 0.75 2/931 76503
+/proc/meminfo: memFree=8833772/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=58880 memory=54512 CPUtime=13.52 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13827 0 0 0 1341 11 0 0 20 0 1 0 10433583 60293120 13628 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 3 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14720 13628 1805 31 0 12078 0
+Current children cumulated CPU time: 13.52 s
+Current children cumulated vsize: 61684 KiB
+Current children cumulated memory: 56152 KiB
+
+[startup+14.4008 s]
+/proc/loadavg: 0.64 0.42 0.75 2/931 76503
+/proc/meminfo: memFree=8834660/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=58880 memory=54512 CPUtime=14.32 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13827 0 0 0 1421 11 0 0 20 0 1 0 10433583 60293120 13628 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 3 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14720 13628 1805 31 0 12078 0
+Current children cumulated CPU time: 14.32 s
+Current children cumulated vsize: 61684 KiB
+Current children cumulated memory: 56152 KiB
+
+[startup+14.6007 s]
+/proc/loadavg: 0.64 0.42 0.75 2/931 76503
+/proc/meminfo: memFree=8834660/11907752 swapFree=4194300/4194300
+[pid=76394] ppid=76393 vsize=2804 memory=1640 CPUtime=0 cores=0-11
+/proc/76394/stat : 76394 (sh) S 76393 76394 3350 34816 76087 4194304 104 0 0 0 0 0 0 0 20 0 1 0 10433583 2871296 410 18446744073709551615 95298408701952 95298408785949 140736820322896 0 0 0 0 0 65538 1 0 0 17 5 0 0 0 0 0 95298408811984 95298408817184 95299050463232 140736820326136 140736820326303 140736820326303 140736820330480 0
+/proc/76394/statm: 701 410 410 21 0 92 0
+[pid=76396] ppid=76394 vsize=58880 memory=54512 CPUtime=14.51 cores=0-11
+/proc/76396/stat : 76396 (clingo) R 76394 76394 3350 34816 76087 4194304 13827 0 0 0 1440 11 0 0 20 0 1 0 10433583 60293120 13628 18446744073709551615 104121987739648 104121987864729 140736014423552 0 0 0 0 0 25184775 0 0 0 17 4 0 0 0 0 0 104121987897648 104121987904072 104123049230336 140736014429890 140736014430103 140736014430103 140736014434280 0
+/proc/76396/statm: 14720 13628 1805 31 0 12078 0
+Current children cumulated CPU time: 14.51 s
+Current children cumulated vsize: 61684 KiB
+Current children cumulated memory: 56152 KiB
+
+Child status: 30
+Real time (s): 14.6569
+CPU time (s): 14.5888
+CPU user time (s): 14.4611
+CPU system time (s): 0.127629
+CPU usage (%): 99.535
+Max. virtual memory (cumulated for all children) (KiB): 61684
+Max. memory (cumulated for all children) (KiB): 56152
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 14.4611
+system time used= 0.127629
+maximum resident set size= 54512
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 13940
+page faults= 0
+swaps= 0
+block input operations= 8
+block output operations= 56
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 5
+involuntary context switches= 528
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 76394
+#   total CPU time (s): 14.5888
+#   total CPU user time (s): 14.4611
+#   total CPU system time (s): 0.127629
+
+??? end of timestamper thread
+runsolver used 0.566569 second user time and 0.787126 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_clingo.sh /home/andreipopi/Documents/GitLab/discover-aba/InstanceGenerator/datasets_final/instances_100_12345_prefrand/argaba_100_0.1_10_10_9.lp"
+	User time (seconds): 15.02
+	System time (seconds): 0.91
+	Percent of CPU this job got: 107%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 54512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14399
+	Voluntary context switches: 156
+	Involuntary context switches: 538
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

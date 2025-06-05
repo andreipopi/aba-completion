@@ -1,0 +1,10 @@
+argument(arg120).
+conclusion(12,arg120).
+atom(12).
+pool_atm(25).
+pool_asm(5).
+pool_atm(12).
+inarg(12,arg120).
+related(t10,5).
+related(t10,25).
+related(t7,12).

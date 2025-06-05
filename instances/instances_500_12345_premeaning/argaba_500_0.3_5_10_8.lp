@@ -1,0 +1,11 @@
+argument(arg2420).
+conclusion(242,arg2420).
+atom(242).
+pool_atm(370).
+pool_asm(54).
+pool_atm(331).
+pool_atm(242).
+inarg(242,arg2420).
+related(t1,54).
+related(t2,370).
+related(t3,331).

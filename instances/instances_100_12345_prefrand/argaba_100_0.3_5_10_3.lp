@@ -1,0 +1,16 @@
+argument(arg1000).
+conclusion(100,arg1000).
+assumption(13).
+atom(100).
+atom(46).
+pool_atm(100).
+pool_atm(46).
+inarg(100,arg1000).
+inarg(46,arg1000).
+inarg(13,arg1000).
+rule(r47,arg1000).
+head(r47,46).
+body(r47,13).
+related(t1,13).
+related(t5,46).
+related(t5,100).

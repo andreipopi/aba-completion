@@ -1,0 +1,16 @@
+argument(arg4810).
+conclusion(481,arg4810).
+assumption(12).
+atom(481).
+atom(541).
+inarg(481,arg4810).
+inarg(541,arg4810).
+inarg(12,arg4810).
+rule(r1840,arg4810).
+rule(r1468,arg4810).
+head(r1840,541).
+head(r1468,481).
+body(r1840,12).
+body(r1468,541).
+related(t1,12).
+related(t2,541).

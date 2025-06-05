@@ -1,0 +1,10 @@
+argument(arg350).
+conclusion(35,arg350).
+atom(35).
+pool_atm(42).
+pool_asm(2).
+pool_atm(35).
+inarg(35,arg350).
+related(t4,2).
+related(t5,42).
+related(t5,35).

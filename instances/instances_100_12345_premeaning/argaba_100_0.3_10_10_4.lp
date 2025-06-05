@@ -1,0 +1,11 @@
+argument(arg530).
+conclusion(53,arg530).
+atom(53).
+pool_atm(55).
+pool_asm(2).
+pool_atm(53).
+pool_asm(9).
+inarg(53,arg530).
+related(t1,2).
+related(t2,9).
+related(t2,55).
