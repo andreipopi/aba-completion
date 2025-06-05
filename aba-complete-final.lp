@@ -50,19 +50,6 @@ in_rule(R,X) :- assumption(X), 1{body(R,X);head(R,X)}, learnable(R).
 :~ related(T1, X), related(T2, Y), T1!=T2, learnable(R), in_rule(R,X), in_rule(R,Y). [1@1, R,T1]
 
 
-%:~ rule(R,Arg), learnable(R).[1000@1, R]
-
-% :~ rule(R,Arg), learnable(R).[1@2, R]
-
-%:~ inarg(X,Arg).[1@1, X]
-
-
-
-
-%related(Y,Y) :- in_rule(R,X), in_rule(R,Y), related(T,X), not related(_,Y), X!= Y.
-
-
-
 #show assumption/1.
 #show argument/1.
 #show inarg/2.
@@ -73,20 +60,4 @@ in_rule(R,X) :- assumption(X), 1{body(R,X);head(R,X)}, learnable(R).
 #show rule/2.
 #show conclusion/2.
 #show derivable/2.
-%#show reach/3.
-
-
-% #show assumption/1.
-% #show argument/1.
-% #show inarg/2.
-% #show body/2.
-% #show head/2.
-% % #show learnable/1.
-% % #show pool_asm/1.
-% % #show pool_atm/1.
-% #show atom/1.
-% %#show distance/2.
-% #show rule/2.
-% #show conclusion/2.
-% #show derivable/2.
 %#show reach/3.
