@@ -1,0 +1,10 @@
+# GitHub Linguist configuration
+# ASP source files share the .lp extension with LambdaPi.
+*.lp linguist-language="Answer Set Programming"
+
+# Benchmark data and results are not implementation code.
+instances/** linguist-detectable=false
+results/** linguist-detectable=false
+
+# Main ASP algorithm
+aba-complete-final.lp linguist-detectable=true
